@@ -2,7 +2,8 @@ baseURL = 'https://Hilzl.github.io/'
 defaultContentLanguage = 'zh'
 title = '我的博客'
 theme = 'PaperMod'
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   env = 'production'
@@ -34,7 +35,7 @@ paginate = 10
   hiddenInSingle = false
 
 [params.editPost]
-  URL = 'https://github.com/Hilzl/<repo>/edit/main/content'
+  URL = 'https://github.com/Hilzl/Hilzl.github.io/edit/main/content'
   Text = '编辑本文'
   appendFilePath = true
 
